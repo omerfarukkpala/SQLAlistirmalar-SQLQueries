@@ -1,0 +1,2 @@
+# SQLAlistirmalar
+SQLQueries
