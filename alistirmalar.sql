@@ -10,3 +10,6 @@ tempdb:Geçici database veya tabloların tutulduığu database'dir.
 --VERİ TİPLERİ
 
  */
+
+
+
