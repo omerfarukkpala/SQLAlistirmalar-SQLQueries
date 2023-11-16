@@ -55,7 +55,7 @@ UPDATE TBLNOTLAR SET DURUM = 0 WHERE ORTALAMA < 50
 
 
 --For those who want to do it in English, here is the English version.
---ENGLIH
+--ENGLISH
 --CREATE TABLE TBLCOURSES
 --(
 --COURSEID tinyint,
