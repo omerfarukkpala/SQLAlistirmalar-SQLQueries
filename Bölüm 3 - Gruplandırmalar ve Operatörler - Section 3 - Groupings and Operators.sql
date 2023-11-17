@@ -2,6 +2,7 @@
 Section 3 - Groupings and Operators
 */
 
+--Bölüm 3 - Gruplandırmalar ve Operatörler
 --SELECT COUNT(*) AS 'Toplam Kayıt' FROM TBLOGRENCILER
 --SELECT COUNT(*) AS 'Toplam Kişi' FROM TBLOGRENCILER WHERE OGRSEHIR = 'Adana'
 
@@ -64,3 +65,7 @@ Section 3 - Groupings and Operators
 
 SELECT * FROM TBLOGRENCILER WHERE OGRAD BETWEEN 'A' AND 'O'
 SELECT * FROM TBLOGRENCILER WHERE OGRAD NOT BETWEEN 'A' AND 'N'
+
+
+
+--Section 3 - Groupings and Operators
