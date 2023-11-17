@@ -1,3 +1,8 @@
+/*Bölüm 2 - DDL ve DML Komutları
+Section 2 - DDL AND DMLL Commands
+*/
+
+
 --CREATE TABLE TBLDERSLER
 --(
 --DERSID tinyint,
