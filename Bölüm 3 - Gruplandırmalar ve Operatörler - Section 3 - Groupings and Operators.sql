@@ -1,3 +1,7 @@
+/*Bölüm 3 - Gruplandırmalar ve Operatörler - 
+Section 3 - Groupings and Operators
+*/
+
 --SELECT COUNT(*) AS 'Toplam Kayıt' FROM TBLOGRENCILER
 --SELECT COUNT(*) AS 'Toplam Kişi' FROM TBLOGRENCILER WHERE OGRSEHIR = 'Adana'
 
