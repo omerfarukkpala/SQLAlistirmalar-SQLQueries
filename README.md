@@ -17,3 +17,7 @@ At first, you can find the documents in Turkish, and later, you can find them in
 
 Türkçe olarak yapmak isteyenler için Türkçe hali.
 For those who want to do it in English, here is the English version.
+
+## Bölüm 2 - DDL ve DML Komutları Section 2 - DDL AND DMLL Commands
+
+## Bölüm 3 - Gruplandırmalar ve Operatörler - Section 3 - Groupings and Operators
