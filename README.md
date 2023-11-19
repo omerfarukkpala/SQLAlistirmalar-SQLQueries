@@ -21,3 +21,5 @@ For those who want to do it in English, here is the English version.
 ## Bölüm 2 - DDL ve DML Komutları Section 2 - DDL AND DMLL Commands
 
 ## Bölüm 3 - Gruplandırmalar ve Operatörler - Section 3 - Groupings and Operators
+
+## Bölüm 4 - İlişkili Tablolar ve Alt Sorgular - Section 4 - Related Tables and Subqueries
