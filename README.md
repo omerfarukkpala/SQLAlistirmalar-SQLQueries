@@ -25,3 +25,5 @@ For those who want to do it in English, here is the English version.
 ## Bölüm 4 - İlişkili Tablolar ve Alt Sorgular - Section 4 - Related Tables and Subqueries
 
 ## Bölüm 5 - Birleştirme İşlemleri -Section 5 - Join Operations
+
+## Bölüm 6 - Aritmetik Fonksiyonlar - Section 6 - Arithmetic Functions
