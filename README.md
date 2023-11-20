@@ -31,3 +31,5 @@ For those who want to do it in English, here is the English version.
 ## Bölüm 7 - Alfabetik Fonksiyonlar - Section 7 - Alphabetical Functions
 
 ## Bölüm 8 - Genel Tekrar - Section 8 - General Review
+
+## Bölüm 9 - Prosedürler - Section 9 - Procedures
