@@ -18,12 +18,14 @@ At first, you can find the documents in Turkish, and later, you can find them in
 Türkçe olarak yapmak isteyenler için Türkçe hali.
 For those who want to do it in English, here is the English version.
 
-## Bölüm 2 - DDL ve DML Komutları Section 2 - DDL AND DMLL Commands
+## Bölüm 2 - DDL ve DML Komutları - Section 2 - DDL AND DMLL Commands
 
 ## Bölüm 3 - Gruplandırmalar ve Operatörler - Section 3 - Groupings and Operators
 
 ## Bölüm 4 - İlişkili Tablolar ve Alt Sorgular - Section 4 - Related Tables and Subqueries
 
-## Bölüm 5 - Birleştirme İşlemleri -Section 5 - Join Operations
+## Bölüm 5 - Birleştirme İşlemleri - Section 5 - Join Operations
 
 ## Bölüm 6 - Aritmetik Fonksiyonlar - Section 6 - Arithmetic Functions
+
+## Bölüm 7 - Alfabetik Fonksiyonlar - Section 7 - Alphabetical Functions
