@@ -39,3 +39,5 @@ Section 11 - Subquery Examples
 UPDATE TBLKASA SET TOPLAM = (SELECT SUM(TUTAR) FROM TBLHAREKET)
 
 --Section 11 - Subquery Examples
+--SUBQUERY EXAMPLES
+
