@@ -39,3 +39,5 @@ For those who want to do it in English, here is the English version.
 ## Bölüm 11 - Alt Sorgu Örnekleri - Section 11 - Subquery Examples
 
 ## Bölüm 12 - Tetikleyiciler - Section 12 - Triggers
+
+## Bölüm 13 - View -Section 13 - View
