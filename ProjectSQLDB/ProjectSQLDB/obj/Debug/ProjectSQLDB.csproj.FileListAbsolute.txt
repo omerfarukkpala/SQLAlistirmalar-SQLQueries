@@ -1,0 +1,9 @@
+C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\bin\Debug\ProjectSQLDB.exe.config
+C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\bin\Debug\ProjectSQLDB.exe
+C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\bin\Debug\ProjectSQLDB.pdb
+C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.csproj.AssemblyReference.cache
+C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.Properties.Resources.resources
+C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.csproj.GenerateResource.cache
+C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.csproj.CoreCompileInputs.cache
+C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.exe
+C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.pdb
