@@ -40,4 +40,4 @@ For those who want to do it in English, here is the English version.
 
 ## Bölüm 12 - Tetikleyiciler - Section 12 - Triggers
 
-## Bölüm 13 - View -Section 13 - View
+## Bölüm 13 - View - Section 13 - View
