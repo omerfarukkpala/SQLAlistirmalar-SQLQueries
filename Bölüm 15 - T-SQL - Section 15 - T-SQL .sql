@@ -175,3 +175,184 @@ Section 15 - T-SQL
 --waitfor delay '00:00:05'
 --insert into TBLKATEGORI (KATEGORIAD) values ('DİĞER')
 --select * from TBLKATEGORI
+
+--
+
+
+
+--Section 15 - T-SQL 
+--T-SQL VARIABLES
+DECLARE @Number INT
+SET @Number = 24
+SELECT @Number AS 'Result'
+
+DECLARE @Person1 VARCHAR(20)
+SET @Person1 = 'Faruk'
+SELECT @Person1
+
+DECLARE @Number1 INT, @Number2 INT, @Total INT
+SET @Number1 = 20
+SET @Number2 = 30
+SET @Total = @Number1 + @Number2
+SELECT @Total
+
+--Homework: Query to calculate the average of three exam grades for a student
+DECLARE @Exam1 FLOAT, @Exam2 FLOAT, @Exam3 FLOAT, @Average DECIMAL(5,2)
+SET @Exam1 = 55
+SET @Exam2 = 58
+SET @Exam3 = 76
+SET @Average = (@Exam1 + @Exam2 + @Exam3) / 3
+SELECT @Average AS 'Average'
+
+--T-SQL VARIABLES ALGORITHM EXAMPLE
+--Query to separate a 3-digit number sent from the query section into its digits and calculate their sum
+DECLARE @Number INT, @Hundreds INT, @Tens INT, @Ones INT, @Sum INT
+SET @Number = 123
+SET @Hundreds = @Number / 100
+SET @Tens = (@Number / 10) % 10
+SET @Ones = @Number % 10
+SET @Sum = @Hundreds + @Tens + @Ones
+SELECT @Hundreds AS 'Hundreds', @Tens AS 'Tens', @Ones AS 'Ones'
+SELECT @Sum AS 'Sum of Digits'
+
+--T-SQL TABLE VARIABLES
+--USE SalesDB
+--SELECT * FROM TBLCUSTOMER
+DECLARE @Balance INT
+SET @Balance = (SELECT MAX(CUSTOMERBALANCE) FROM TBLCUSTOMER)
+SELECT @Balance
+
+--SELECT * FROM TBLPRODUCTS
+DECLARE @Stock INT
+SET @Stock = (SELECT MAX(PRODUCTSTOCK) FROM TBLPRODUCTS)
+SELECT @Stock
+SELECT * FROM TBLPRODUCTS WHERE PRODUCTSTOCK = @Stock
+
+--SYSTEM FUNCTIONS
+--SELECT @@SERVERNAME, @@ERROR, @@DEFAULT_LANGID, @@LANGUAGE, @@MAX_CONNECTIONS, @@MICROSOFTVERSION, @@IDENTITY, @@TEXTSIZE, @@VERSION
+--USE SalesDB
+
+--PRINT USAGE
+--PRINT 'Hello'
+
+DECLARE @Num1 INT, @Num2 INT, @Result INT
+SET @Num1 = 4
+SET @Num2 = 8
+SET @Result = @Num1 * @Num2
+PRINT 'Multiplication of 4 by 8'
+PRINT '***************************'
+PRINT @Result
+
+--TABLE TYPE VARIABLES
+DECLARE @People TABLE
+(
+  PersonID INT IDENTITY(1,1),
+  PersonName VARCHAR(10),
+  PersonCity VARCHAR(15)
+)
+INSERT INTO @People (PersonName, PersonCity) VALUES ('Faruk', 'Bursa')
+INSERT INTO @People (PersonName, PersonCity) VALUES ('Ömer', 'Kocaeli')
+SELECT * FROM @People WHERE PersonCity LIKE '%f%'
+
+--IF ELSE USAGE
+--IF 1 < 5
+--  PRINT 'Hello'
+--ELSE
+--  PRINT 'Selam'
+
+--SELECT * FROM TBLPRODUCTS
+--IF (SELECT SUM(PRODUCTSTOCK) FROM TBLPRODUCTS) > 100
+--  PRINT 'Total Product Count is Greater Than 100'
+--ELSE
+--  PRINT 'Total Product Count is Less Than 100'
+
+--IF (SELECT COUNT(*) FROM TBLPRODUCTS) > 20
+--  PRINT 'There are more than 20 different products'
+--ELSE
+--  PRINT 'There are fewer than 20 different products'
+
+--DECLARE @Product VARCHAR(10)
+--SET @Product = (SELECT SUM(PRODUCTSTOCK) FROM TBLPRODUCTS)
+--IF @Product > 100
+--  PRINT 'Total Product Count: ' + @Product + ' is greater than 100'
+--ELSE
+--  PRINT 'Total Product Count: ' + @Product + ' is less than 100'
+
+--CASE USAGE
+--SELECT PRODUCTNAME, PRODUCTBRAND, PRODUCTSTATUS =
+--CASE PRODUCTSTATUS
+--  WHEN 1 THEN 'PRODUCT AVAILABLE'
+--  WHEN 0 THEN 'NO PRODUCT'
+--END
+--FROM TBLPRODUCTS
+
+--SELECT PRODUCTNAME, PRODUCTBRAND, CATEGORY =
+--CASE PRODUCTCATEGORY
+--  WHEN 1 THEN 'LAPTOP'
+--  WHEN 2 THEN 'WHITE GOODS'
+--  WHEN 3 THEN 'SMALL HOUSEHOLD APPLIANCES'
+--END
+--FROM TBLPRODUCTS
+
+--FINDING CRITICAL LEVELS WITH CASE
+--CREATE PROCEDURE TEST4
+--AS
+--SELECT PRODUCTNAME, PRODUCTBRAND, PRODUCTSTOCK, PRODUCTSTOCK =
+--CASE
+--  WHEN PRODUCTSTOCK >= 1 AND PRODUCTSTOCK <= 5 THEN 'CRITICAL LEVEL'
+--  WHEN PRODUCTSTOCK >= 6 AND PRODUCTSTOCK <= 10 THEN 'SUPPLEMENT SHOULD BE MADE'
+--  WHEN PRODUCTSTOCK > 10 THEN 'PRODUCT STOCK COUNT IS SUFFICIENT'
+--END
+--FROM TBLPRODUCTS
+
+--WHILE LOOP
+--DECLARE @Counter INT
+--SET @Counter = 1
+--WHILE @Counter <= 5
+--BEGIN
+--  PRINT 'Hello SQL Lessons'
+--  SET @Counter = @Counter + 1
+--END
+
+--DECLARE @Number INT
+--SET @Number = 1
+--WHILE @Number <= 10
+--BEGIN
+--  PRINT @Number
+--  SET @Number += 1
+--END
+
+--DECLARE @Counter INT, @Sum INT
+--SET @Counter = 1
+--SET @Sum = 0
+--WHILE (@Counter <= 10)
+--BEGIN
+--  SET @Sum += @Counter
+--  SET @Counter += 1
+--END
+--PRINT 'Sum of Numbers Between 1 and 10'
+--PRINT '-------------------------------------'
+--PRINT @Sum
+
+--SELECT AVG(PRODUCTSELLINGPRICE - PRODUCTBUYINGPRICE) FROM TBLPRODUCTS
+
+--WHILE (SELECT AVG(PRODUCTSELLINGPRICE - PRODUCTBUYINGPRICE) FROM TBLPRODUCTS WHERE PRODUCTCATEGORY = 2) <= 450
+--BEGIN
+--  UPDATE TBLPRODUCTS SET PRODUCTSELLINGPRICE += PRODUCTSELLINGPRICE * 10 / 100
+--END
+--SELECT * FROM TBLPRODUCTS
+
+--Query to add one unit of product to each until the total number of products (product stock) exceeds 200
+--WHILE (SELECT SUM(PRODUCTSTOCK) FROM TBLPRODUCTS) <= 200
+--BEGIN
+--  UPDATE TBLPRODUCTS SET PRODUCTSTOCK += 1
+--END
+
+--WAITFOR USAGE
+--WAITFOR DELAY '00:00:05'
+--SELECT * FROM TBLPRODUCTS
+
+--WAITFOR DELAY '00:00:05'
+--INSERT INTO TBLCATEGORY (CATEGORYNAME) VALUES ('OTHER')
+--SELECT * FROM TBLCATEGORY
+
