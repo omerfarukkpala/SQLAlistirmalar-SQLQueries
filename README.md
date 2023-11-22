@@ -43,3 +43,5 @@ For those who want to do it in English, here is the English version.
 ## Bölüm 13 - View - Section 13 - View
 
 ## Bölüm 14 - Northwind Veri Tabanı - Section 14 - Northwind Database
+
+## Bölüm 15 - T-SQL - Section 15 - T-SQL
