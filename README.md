@@ -37,3 +37,5 @@ For those who want to do it in English, here is the English version.
 ## Bölüm 10 - Date Sorguları - Section 10 - Date Queries
 
 ## Bölüm 11 - Alt Sorgu Örnekleri - Section 11 - Subquery Examples
+
+## Bölüm 12 - Tetikleyiciler - Section 12 - Triggers
