@@ -73,6 +73,7 @@
             this.BtnGuncelle.TabIndex = 37;
             this.BtnGuncelle.Text = "GÜNCELLE";
             this.BtnGuncelle.UseVisualStyleBackColor = true;
+            this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
             // PictureBox3
             // 
@@ -98,6 +99,7 @@
             this.BtnSil.TabIndex = 35;
             this.BtnSil.Text = "SİL";
             this.BtnSil.UseVisualStyleBackColor = true;
+            this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
             // PictureBox2
             // 
@@ -123,6 +125,7 @@
             this.BtnKaydet.TabIndex = 33;
             this.BtnKaydet.Text = "KAYDET";
             this.BtnKaydet.UseVisualStyleBackColor = true;
+            this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // PictureBox1
             // 
@@ -205,6 +208,7 @@
             this.DataGridView1.RowTemplate.Height = 24;
             this.DataGridView1.Size = new System.Drawing.Size(616, 235);
             this.DataGridView1.TabIndex = 26;
+            this.DataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellClick);
             // 
             // FrmKategoriler
             // 
