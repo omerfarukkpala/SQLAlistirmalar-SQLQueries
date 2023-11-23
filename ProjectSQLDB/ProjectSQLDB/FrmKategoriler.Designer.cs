@@ -148,6 +148,7 @@
             this.BtnListele.TabIndex = 31;
             this.BtnListele.Text = "LİSTELEME";
             this.BtnListele.UseVisualStyleBackColor = true;
+            this.BtnListele.Click += new System.EventHandler(this.BtnListele_Click);
             // 
             // TxtKategoriAd
             // 
