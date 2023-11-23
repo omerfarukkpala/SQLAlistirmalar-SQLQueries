@@ -21,5 +21,12 @@ namespace ProjectSQLDB
         {
 
         }
+
+        private void BtnKategori_Click(object sender, EventArgs e)
+        {
+
+            FrmKategoriler fr = new FrmKategoriler();
+            fr.Show();
+        }
     }
 }

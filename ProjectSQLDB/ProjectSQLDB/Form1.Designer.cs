@@ -313,6 +313,7 @@
             this.BtnKategori.TabIndex = 27;
             this.BtnKategori.Text = "KATEGORİLER";
             this.BtnKategori.UseVisualStyleBackColor = true;
+            this.BtnKategori.Click += new System.EventHandler(this.BtnKategori_Click);
             // 
             // PictureBox2
             // 
