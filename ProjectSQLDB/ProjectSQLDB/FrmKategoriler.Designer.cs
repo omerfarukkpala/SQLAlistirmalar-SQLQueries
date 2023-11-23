@@ -53,7 +53,7 @@
             // 
             this.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
-            this.PictureBox4.Location = new System.Drawing.Point(350, 114);
+            this.PictureBox4.Location = new System.Drawing.Point(349, 114);
             this.PictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.PictureBox4.Name = "PictureBox4";
             this.PictureBox4.Size = new System.Drawing.Size(75, 32);
@@ -78,7 +78,7 @@
             // 
             this.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox3.Image")));
-            this.PictureBox3.Location = new System.Drawing.Point(350, 78);
+            this.PictureBox3.Location = new System.Drawing.Point(349, 78);
             this.PictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.PictureBox3.Name = "PictureBox3";
             this.PictureBox3.Size = new System.Drawing.Size(75, 32);
@@ -103,7 +103,7 @@
             // 
             this.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
-            this.PictureBox2.Location = new System.Drawing.Point(350, 41);
+            this.PictureBox2.Location = new System.Drawing.Point(349, 41);
             this.PictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.PictureBox2.Name = "PictureBox2";
             this.PictureBox2.Size = new System.Drawing.Size(75, 32);
@@ -128,7 +128,7 @@
             // 
             this.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(350, 5);
+            this.PictureBox1.Location = new System.Drawing.Point(349, 5);
             this.PictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.PictureBox1.Name = "PictureBox1";
             this.PictureBox1.Size = new System.Drawing.Size(75, 32);
