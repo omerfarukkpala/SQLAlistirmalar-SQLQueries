@@ -7,3 +7,4 @@ C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug
 C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.csproj.CoreCompileInputs.cache
 C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.exe
 C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.pdb
+C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.Form1.resources
