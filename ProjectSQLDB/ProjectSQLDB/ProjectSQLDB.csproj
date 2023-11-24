@@ -72,6 +72,9 @@
     <EmbeddedResource Include="FrmKategoriler.resx">
       <DependentUpon>FrmKategoriler.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmMusteri.resx">
+      <DependentUpon>FrmMusteri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
