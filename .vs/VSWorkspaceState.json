@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ProjectSQLDB",
+    "\\ProjectSQLDB\\ProjectSQLDB"
   ],
+  "SelectedNode": "\\ProjectSQLDB\\ProjectSQLDB\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
