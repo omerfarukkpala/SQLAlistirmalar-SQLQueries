@@ -37,11 +37,6 @@
             this.BtnKaydet = new System.Windows.Forms.Button();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.BtnListele = new System.Windows.Forms.Button();
-            this.TxtKategoriAd = new System.Windows.Forms.TextBox();
-            this.Label2 = new System.Windows.Forms.Label();
-            this.TxtKategoriId = new System.Windows.Forms.TextBox();
-            this.Label1 = new System.Windows.Forms.Label();
-            this.DataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.BtnAra = new System.Windows.Forms.Button();
@@ -55,13 +50,14 @@
             this.TxtId = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.DataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // PictureBox4
@@ -163,62 +159,6 @@
             this.BtnListele.TabIndex = 44;
             this.BtnListele.Text = "LİSTELEME";
             this.BtnListele.UseVisualStyleBackColor = true;
-            // 
-            // TxtKategoriAd
-            // 
-            this.TxtKategoriAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtKategoriAd.Location = new System.Drawing.Point(138, 138);
-            this.TxtKategoriAd.Margin = new System.Windows.Forms.Padding(2);
-            this.TxtKategoriAd.Multiline = true;
-            this.TxtKategoriAd.Name = "TxtKategoriAd";
-            this.TxtKategoriAd.Size = new System.Drawing.Size(188, 35);
-            this.TxtKategoriAd.TabIndex = 43;
-            // 
-            // Label2
-            // 
-            this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Label2.ForeColor = System.Drawing.Color.White;
-            this.Label2.Location = new System.Drawing.Point(588, 128);
-            this.Label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(123, 20);
-            this.Label2.TabIndex = 42;
-            this.Label2.Text = "KATEGORİ AD:";
-            // 
-            // TxtKategoriId
-            // 
-            this.TxtKategoriId.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtKategoriId.Location = new System.Drawing.Point(138, 98);
-            this.TxtKategoriId.Margin = new System.Windows.Forms.Padding(2);
-            this.TxtKategoriId.Multiline = true;
-            this.TxtKategoriId.Name = "TxtKategoriId";
-            this.TxtKategoriId.Size = new System.Drawing.Size(188, 35);
-            this.TxtKategoriId.TabIndex = 41;
-            // 
-            // Label1
-            // 
-            this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Label1.ForeColor = System.Drawing.Color.White;
-            this.Label1.Location = new System.Drawing.Point(595, 88);
-            this.Label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(117, 20);
-            this.Label1.TabIndex = 40;
-            this.Label1.Text = "KATEGORİ ID:";
-            // 
-            // DataGridView1
-            // 
-            this.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGridView1.Location = new System.Drawing.Point(11, 317);
-            this.DataGridView1.Margin = new System.Windows.Forms.Padding(2);
-            this.DataGridView1.Name = "DataGridView1";
-            this.DataGridView1.RowHeadersWidth = 51;
-            this.DataGridView1.RowTemplate.Height = 24;
-            this.DataGridView1.Size = new System.Drawing.Size(616, 261);
-            this.DataGridView1.TabIndex = 39;
             // 
             // groupBox1
             // 
@@ -368,18 +308,25 @@
             this.label7.TabIndex = 27;
             this.label7.Text = "Müşteri ID:";
             // 
+            // DataGridView1
+            // 
+            this.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridView1.Location = new System.Drawing.Point(6, 5);
+            this.DataGridView1.Name = "DataGridView1";
+            this.DataGridView1.RowHeadersWidth = 51;
+            this.DataGridView1.RowTemplate.Height = 24;
+            this.DataGridView1.Size = new System.Drawing.Size(766, 693);
+            this.DataGridView1.TabIndex = 53;
+            // 
             // FrmMusteri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(54)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(1205, 758);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.TxtKategoriAd);
-            this.Controls.Add(this.Label2);
-            this.Controls.Add(this.TxtKategoriId);
-            this.Controls.Add(this.Label1);
+            this.ClientSize = new System.Drawing.Size(1182, 696);
             this.Controls.Add(this.DataGridView1);
+            this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmMusteri";
@@ -388,12 +335,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -407,11 +353,6 @@
         internal System.Windows.Forms.Button BtnKaydet;
         internal System.Windows.Forms.PictureBox PictureBox1;
         internal System.Windows.Forms.Button BtnListele;
-        internal System.Windows.Forms.TextBox TxtKategoriAd;
-        internal System.Windows.Forms.Label Label2;
-        internal System.Windows.Forms.TextBox TxtKategoriId;
-        internal System.Windows.Forms.Label Label1;
-        internal System.Windows.Forms.DataGridView DataGridView1;
         private System.Windows.Forms.GroupBox groupBox1;
         internal System.Windows.Forms.PictureBox pictureBox5;
         internal System.Windows.Forms.Button BtnAra;
@@ -425,5 +366,6 @@
         internal System.Windows.Forms.TextBox TxtId;
         internal System.Windows.Forms.Label label3;
         internal System.Windows.Forms.Label label7;
+        internal System.Windows.Forms.DataGridView DataGridView1;
     }
 }
