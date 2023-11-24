@@ -215,7 +215,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(54)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(612, 426);
+            this.ClientSize = new System.Drawing.Size(607, 423);
             this.Controls.Add(this.PictureBox4);
             this.Controls.Add(this.BtnGuncelle);
             this.Controls.Add(this.PictureBox3);
@@ -230,7 +230,7 @@
             this.Controls.Add(this.Label1);
             this.Controls.Add(this.DataGridView1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmKategoriler";
             this.Text = "FrmKategoriler";
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).EndInit();
