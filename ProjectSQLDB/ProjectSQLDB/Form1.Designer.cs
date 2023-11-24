@@ -103,7 +103,7 @@
             this.Panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Panel1.Location = new System.Drawing.Point(0, 0);
             this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(392, 661);
+            this.Panel1.Size = new System.Drawing.Size(345, 661);
             this.Panel1.TabIndex = 6;
             this.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1_Paint);
             // 
