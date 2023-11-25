@@ -28,5 +28,11 @@ namespace ProjectSQLDB
             FrmKategoriler fr = new FrmKategoriler();
             fr.Show();
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            FrmMusteri fr2 = new FrmMusteri();
+            fr2.Show();
+        }
     }
 }

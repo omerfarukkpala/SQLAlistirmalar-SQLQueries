@@ -338,6 +338,7 @@
             this.Button2.TabIndex = 25;
             this.Button2.Text = "MÜŞTERİLER";
             this.Button2.UseVisualStyleBackColor = true;
+            this.Button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // PictureBox1
             // 
