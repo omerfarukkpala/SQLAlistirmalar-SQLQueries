@@ -84,6 +84,7 @@
             this.BtnGuncelle.TabIndex = 50;
             this.BtnGuncelle.Text = "GÜNCELLE";
             this.BtnGuncelle.UseVisualStyleBackColor = true;
+            this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
             // PictureBox3
             // 
@@ -109,6 +110,7 @@
             this.BtnSil.TabIndex = 48;
             this.BtnSil.Text = "SİL";
             this.BtnSil.UseVisualStyleBackColor = true;
+            this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
             // PictureBox2
             // 
@@ -134,6 +136,7 @@
             this.BtnKaydet.TabIndex = 46;
             this.BtnKaydet.Text = "KAYDET";
             this.BtnKaydet.UseVisualStyleBackColor = true;
+            this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // PictureBox1
             // 
