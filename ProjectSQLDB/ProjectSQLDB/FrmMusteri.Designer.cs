@@ -64,7 +64,7 @@
             // 
             this.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
-            this.PictureBox4.Location = new System.Drawing.Point(77, 410);
+            this.PictureBox4.Location = new System.Drawing.Point(77, 384);
             this.PictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.PictureBox4.Name = "PictureBox4";
             this.PictureBox4.Size = new System.Drawing.Size(75, 36);
@@ -77,7 +77,7 @@
             this.BtnGuncelle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnGuncelle.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnGuncelle.Location = new System.Drawing.Point(152, 411);
+            this.BtnGuncelle.Location = new System.Drawing.Point(152, 385);
             this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(2);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(234, 36);
@@ -89,7 +89,7 @@
             // 
             this.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox3.Image")));
-            this.PictureBox3.Location = new System.Drawing.Point(77, 370);
+            this.PictureBox3.Location = new System.Drawing.Point(77, 344);
             this.PictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.PictureBox3.Name = "PictureBox3";
             this.PictureBox3.Size = new System.Drawing.Size(75, 36);
@@ -102,7 +102,7 @@
             this.BtnSil.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSil.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnSil.Location = new System.Drawing.Point(152, 371);
+            this.BtnSil.Location = new System.Drawing.Point(152, 345);
             this.BtnSil.Margin = new System.Windows.Forms.Padding(2);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(235, 36);
@@ -114,7 +114,7 @@
             // 
             this.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
-            this.PictureBox2.Location = new System.Drawing.Point(77, 329);
+            this.PictureBox2.Location = new System.Drawing.Point(77, 303);
             this.PictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.PictureBox2.Name = "PictureBox2";
             this.PictureBox2.Size = new System.Drawing.Size(75, 36);
@@ -127,7 +127,7 @@
             this.BtnKaydet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnKaydet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnKaydet.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnKaydet.Location = new System.Drawing.Point(152, 330);
+            this.BtnKaydet.Location = new System.Drawing.Point(152, 304);
             this.BtnKaydet.Margin = new System.Windows.Forms.Padding(2);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(234, 36);
@@ -139,7 +139,7 @@
             // 
             this.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(77, 289);
+            this.PictureBox1.Location = new System.Drawing.Point(77, 263);
             this.PictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.PictureBox1.Name = "PictureBox1";
             this.PictureBox1.Size = new System.Drawing.Size(75, 36);
@@ -152,7 +152,7 @@
             this.BtnListele.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnListele.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnListele.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnListele.Location = new System.Drawing.Point(152, 290);
+            this.BtnListele.Location = new System.Drawing.Point(152, 264);
             this.BtnListele.Margin = new System.Windows.Forms.Padding(2);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(234, 36);
@@ -192,7 +192,7 @@
             // 
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(76, 456);
+            this.pictureBox5.Location = new System.Drawing.Point(76, 430);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(75, 39);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -204,7 +204,7 @@
             this.BtnAra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnAra.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnAra.Location = new System.Drawing.Point(152, 455);
+            this.BtnAra.Location = new System.Drawing.Point(152, 429);
             this.BtnAra.Name = "BtnAra";
             this.BtnAra.Size = new System.Drawing.Size(234, 39);
             this.BtnAra.TabIndex = 40;
@@ -214,7 +214,7 @@
             // CmbSehir
             // 
             this.CmbSehir.FormattingEnabled = true;
-            this.CmbSehir.Location = new System.Drawing.Point(156, 183);
+            this.CmbSehir.Location = new System.Drawing.Point(156, 157);
             this.CmbSehir.Name = "CmbSehir";
             this.CmbSehir.Size = new System.Drawing.Size(249, 28);
             this.CmbSehir.TabIndex = 39;
@@ -222,7 +222,7 @@
             // TxtBakiye
             // 
             this.TxtBakiye.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtBakiye.Location = new System.Drawing.Point(156, 222);
+            this.TxtBakiye.Location = new System.Drawing.Point(156, 196);
             this.TxtBakiye.Multiline = true;
             this.TxtBakiye.Name = "TxtBakiye";
             this.TxtBakiye.Size = new System.Drawing.Size(249, 39);
@@ -232,7 +232,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(78, 225);
+            this.label5.Location = new System.Drawing.Point(78, 199);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 20);
             this.label5.TabIndex = 37;
@@ -243,7 +243,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(91, 181);
+            this.label6.Location = new System.Drawing.Point(91, 155);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(50, 20);
             this.label6.TabIndex = 35;
@@ -252,7 +252,7 @@
             // TxtSoyad
             // 
             this.TxtSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtSoyad.Location = new System.Drawing.Point(156, 139);
+            this.TxtSoyad.Location = new System.Drawing.Point(156, 113);
             this.TxtSoyad.Multiline = true;
             this.TxtSoyad.Name = "TxtSoyad";
             this.TxtSoyad.Size = new System.Drawing.Size(249, 38);
@@ -272,7 +272,7 @@
             // TxtAd
             // 
             this.TxtAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtAd.Location = new System.Drawing.Point(156, 94);
+            this.TxtAd.Location = new System.Drawing.Point(156, 68);
             this.TxtAd.Multiline = true;
             this.TxtAd.Name = "TxtAd";
             this.TxtAd.Size = new System.Drawing.Size(249, 39);
@@ -281,7 +281,7 @@
             // TxtId
             // 
             this.TxtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtId.Location = new System.Drawing.Point(156, 50);
+            this.TxtId.Location = new System.Drawing.Point(156, 24);
             this.TxtId.Multiline = true;
             this.TxtId.Name = "TxtId";
             this.TxtId.Size = new System.Drawing.Size(249, 38);
@@ -291,7 +291,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(40, 98);
+            this.label3.Location = new System.Drawing.Point(40, 72);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 20);
             this.label3.TabIndex = 29;
@@ -302,7 +302,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(49, 53);
+            this.label7.Location = new System.Drawing.Point(49, 27);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(86, 20);
             this.label7.TabIndex = 27;
@@ -328,8 +328,10 @@
             this.Controls.Add(this.DataGridView1);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmMusteri";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmMusteri";
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).EndInit();
