@@ -64,7 +64,7 @@
             // 
             this.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
-            this.PictureBox4.Location = new System.Drawing.Point(96, 424);
+            this.PictureBox4.Location = new System.Drawing.Point(96, 419);
             this.PictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.PictureBox4.Name = "PictureBox4";
             this.PictureBox4.Size = new System.Drawing.Size(75, 36);
@@ -77,7 +77,7 @@
             this.BtnGuncelle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnGuncelle.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnGuncelle.Location = new System.Drawing.Point(171, 425);
+            this.BtnGuncelle.Location = new System.Drawing.Point(171, 420);
             this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(2);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(234, 36);
@@ -89,7 +89,7 @@
             // 
             this.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox3.Image")));
-            this.PictureBox3.Location = new System.Drawing.Point(96, 384);
+            this.PictureBox3.Location = new System.Drawing.Point(96, 379);
             this.PictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.PictureBox3.Name = "PictureBox3";
             this.PictureBox3.Size = new System.Drawing.Size(75, 36);
@@ -102,7 +102,7 @@
             this.BtnSil.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSil.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnSil.Location = new System.Drawing.Point(171, 385);
+            this.BtnSil.Location = new System.Drawing.Point(171, 380);
             this.BtnSil.Margin = new System.Windows.Forms.Padding(2);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(235, 36);
@@ -114,7 +114,7 @@
             // 
             this.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
-            this.PictureBox2.Location = new System.Drawing.Point(96, 343);
+            this.PictureBox2.Location = new System.Drawing.Point(96, 338);
             this.PictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.PictureBox2.Name = "PictureBox2";
             this.PictureBox2.Size = new System.Drawing.Size(75, 36);
@@ -127,7 +127,7 @@
             this.BtnKaydet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnKaydet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnKaydet.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnKaydet.Location = new System.Drawing.Point(171, 344);
+            this.BtnKaydet.Location = new System.Drawing.Point(171, 339);
             this.BtnKaydet.Margin = new System.Windows.Forms.Padding(2);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(234, 36);
@@ -139,7 +139,7 @@
             // 
             this.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(96, 303);
+            this.PictureBox1.Location = new System.Drawing.Point(96, 298);
             this.PictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.PictureBox1.Name = "PictureBox1";
             this.PictureBox1.Size = new System.Drawing.Size(75, 36);
@@ -152,7 +152,7 @@
             this.BtnListele.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnListele.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnListele.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnListele.Location = new System.Drawing.Point(171, 304);
+            this.BtnListele.Location = new System.Drawing.Point(171, 299);
             this.BtnListele.Margin = new System.Windows.Forms.Padding(2);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(234, 36);
@@ -192,7 +192,7 @@
             // 
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(95, 470);
+            this.pictureBox5.Location = new System.Drawing.Point(95, 465);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(75, 39);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -204,7 +204,7 @@
             this.BtnAra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnAra.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnAra.Location = new System.Drawing.Point(171, 469);
+            this.BtnAra.Location = new System.Drawing.Point(171, 464);
             this.BtnAra.Name = "BtnAra";
             this.BtnAra.Size = new System.Drawing.Size(234, 39);
             this.BtnAra.TabIndex = 40;
