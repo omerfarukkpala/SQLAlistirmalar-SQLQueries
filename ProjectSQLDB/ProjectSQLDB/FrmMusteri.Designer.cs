@@ -77,7 +77,7 @@
             this.BtnGuncelle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnGuncelle.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnGuncelle.Location = new System.Drawing.Point(176, 435);
+            this.BtnGuncelle.Location = new System.Drawing.Point(171, 435);
             this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(2);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(234, 36);
@@ -102,7 +102,7 @@
             this.BtnSil.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSil.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnSil.Location = new System.Drawing.Point(176, 395);
+            this.BtnSil.Location = new System.Drawing.Point(171, 395);
             this.BtnSil.Margin = new System.Windows.Forms.Padding(2);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(235, 36);
@@ -127,7 +127,7 @@
             this.BtnKaydet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnKaydet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnKaydet.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnKaydet.Location = new System.Drawing.Point(176, 354);
+            this.BtnKaydet.Location = new System.Drawing.Point(171, 354);
             this.BtnKaydet.Margin = new System.Windows.Forms.Padding(2);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(234, 36);
@@ -152,7 +152,7 @@
             this.BtnListele.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnListele.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnListele.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnListele.Location = new System.Drawing.Point(176, 314);
+            this.BtnListele.Location = new System.Drawing.Point(171, 314);
             this.BtnListele.Margin = new System.Windows.Forms.Padding(2);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(234, 36);
@@ -204,7 +204,7 @@
             this.BtnAra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnAra.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnAra.Location = new System.Drawing.Point(176, 479);
+            this.BtnAra.Location = new System.Drawing.Point(171, 479);
             this.BtnAra.Name = "BtnAra";
             this.BtnAra.Size = new System.Drawing.Size(234, 39);
             this.BtnAra.TabIndex = 40;
@@ -214,7 +214,7 @@
             // CmbSehir
             // 
             this.CmbSehir.FormattingEnabled = true;
-            this.CmbSehir.Location = new System.Drawing.Point(161, 183);
+            this.CmbSehir.Location = new System.Drawing.Point(156, 183);
             this.CmbSehir.Name = "CmbSehir";
             this.CmbSehir.Size = new System.Drawing.Size(249, 28);
             this.CmbSehir.TabIndex = 39;
@@ -222,7 +222,7 @@
             // TxtBakiye
             // 
             this.TxtBakiye.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtBakiye.Location = new System.Drawing.Point(161, 222);
+            this.TxtBakiye.Location = new System.Drawing.Point(156, 222);
             this.TxtBakiye.Multiline = true;
             this.TxtBakiye.Name = "TxtBakiye";
             this.TxtBakiye.Size = new System.Drawing.Size(249, 39);
@@ -252,7 +252,7 @@
             // TxtSoyad
             // 
             this.TxtSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtSoyad.Location = new System.Drawing.Point(161, 139);
+            this.TxtSoyad.Location = new System.Drawing.Point(156, 139);
             this.TxtSoyad.Multiline = true;
             this.TxtSoyad.Name = "TxtSoyad";
             this.TxtSoyad.Size = new System.Drawing.Size(249, 38);
@@ -272,7 +272,7 @@
             // TxtAd
             // 
             this.TxtAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtAd.Location = new System.Drawing.Point(161, 94);
+            this.TxtAd.Location = new System.Drawing.Point(156, 94);
             this.TxtAd.Multiline = true;
             this.TxtAd.Name = "TxtAd";
             this.TxtAd.Size = new System.Drawing.Size(249, 39);
@@ -281,7 +281,7 @@
             // TxtId
             // 
             this.TxtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtId.Location = new System.Drawing.Point(161, 50);
+            this.TxtId.Location = new System.Drawing.Point(156, 50);
             this.TxtId.Multiline = true;
             this.TxtId.Name = "TxtId";
             this.TxtId.Size = new System.Drawing.Size(249, 38);
