@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -33,6 +34,12 @@ namespace ProjectSQLDB
         {
             FrmMusteri fr2 = new FrmMusteri();
             fr2.Show();
+        }
+
+        SqlConnection baglanti = new SqlConnection(@"Data Source=OMERFARUKPALA;Initial Catalog=SatisVT;Integrated Security=True");
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
