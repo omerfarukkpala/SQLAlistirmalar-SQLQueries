@@ -105,3 +105,7 @@ For those who want to do it in English, here is the English version.
 ## Category Listing
 
 ![image](https://github.com/omerfarukkpala/SQLAlistirmalar/assets/101570820/e051d3c5-ae30-4470-94fe-3afb07d60410)
+## Here are the databases used in the lessons.
+![nort](https://github.com/omerfarukkpala/SQLAlistirmalar-SQLQueries/assets/101570820/3d6a9215-eba2-43d0-9679-cf2cee90b284)
+![satisvt](https://github.com/omerfarukkpala/SQLAlistirmalar-SQLQueries/assets/101570820/0ee4f4c5-482f-49d2-9d62-2678fe25eddc)
+![DbYeni](https://github.com/omerfarukkpala/SQLAlistirmalar-SQLQueries/assets/101570820/69a95803-10a4-4a63-95c4-b0f62e0de759)
