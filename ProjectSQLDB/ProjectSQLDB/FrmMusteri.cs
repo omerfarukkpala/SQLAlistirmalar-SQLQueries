@@ -91,5 +91,15 @@ namespace ProjectSQLDB
             MessageBox.Show("Müşteri Güncellendi");
             Listele();
         }
+
+        private void BtnAra_Click(object sender, EventArgs e)
+        {
+            SqlCommand komut = new SqlCommand("select * from TBLMUSTERI where MUSTERIAD=@P1", baglanti);
+            komut.Parameters.AddWithValue("@p1", TxtAd.Text);
+            SqlDataAdapter da = new SqlDataAdapter(komut);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            DataGridView1.DataSource = dt;
+        }
     }
 }

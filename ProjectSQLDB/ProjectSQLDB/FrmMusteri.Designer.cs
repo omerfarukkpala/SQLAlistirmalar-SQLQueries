@@ -213,6 +213,7 @@
             this.BtnAra.TabIndex = 40;
             this.BtnAra.Text = "ARA";
             this.BtnAra.UseVisualStyleBackColor = true;
+            this.BtnAra.Click += new System.EventHandler(this.BtnAra_Click);
             // 
             // CmbSehir
             // 
