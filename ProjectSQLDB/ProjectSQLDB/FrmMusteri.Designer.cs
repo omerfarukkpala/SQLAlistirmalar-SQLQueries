@@ -187,7 +187,7 @@
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Location = new System.Drawing.Point(761, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(416, 693);
+            this.groupBox1.Size = new System.Drawing.Size(448, 693);
             this.groupBox1.TabIndex = 52;
             this.groupBox1.TabStop = false;
             // 
@@ -238,9 +238,9 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(78, 199);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 20);
+            this.label5.Size = new System.Drawing.Size(75, 20);
             this.label5.TabIndex = 37;
-            this.label5.Text = "Bakiye:";
+            this.label5.Text = "Balance :";
             // 
             // label6
             // 
@@ -249,9 +249,9 @@
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(91, 155);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 20);
+            this.label6.Size = new System.Drawing.Size(43, 20);
             this.label6.TabIndex = 35;
-            this.label6.Text = "Şehir:";
+            this.label6.Text = "City :";
             // 
             // TxtSoyad
             // 
@@ -267,11 +267,11 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(25, 131);
+            this.label4.Location = new System.Drawing.Point(40, 116);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 20);
+            this.label4.Size = new System.Drawing.Size(98, 20);
             this.label4.TabIndex = 31;
-            this.label4.Text = "Müşteri Soyad";
+            this.label4.Text = " Last Name :";
             // 
             // TxtAd
             // 
@@ -295,22 +295,22 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(43, 87);
+            this.label3.Location = new System.Drawing.Point(13, 71);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 20);
+            this.label3.Size = new System.Drawing.Size(132, 20);
             this.label3.TabIndex = 29;
-            this.label3.Text = "Müşteri AD:";
+            this.label3.Text = "Customer Name :";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(49, 27);
+            this.label7.Location = new System.Drawing.Point(32, 27);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(86, 20);
+            this.label7.Size = new System.Drawing.Size(107, 20);
             this.label7.TabIndex = 27;
-            this.label7.Text = "Müşteri ID:";
+            this.label7.Text = "Customer ID :";
             // 
             // DataGridView1
             // 

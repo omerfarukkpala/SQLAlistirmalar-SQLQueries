@@ -45,6 +45,26 @@ namespace ProjectSQLDB
             DataTable dt = new DataTable();
             da.Fill(dt);
             dataGridView1.DataSource = dt;
+
+
+            //Grafiğe veri çekme
+            baglanti.Open();
+            SqlCommand komut2 = new SqlCommand("select KATEGORIAD,COUNT(*) FROM TBLKATEGORI INNER JOIN TBLURUNLER ON TBLKATEGORI.KATEGORIID=TBLURUNLER.KATEGORI GROUP BY KATEGORIAD", baglanti);
+            SqlDataReader dr = komut2.ExecuteReader();
+            while (dr.Read())
+            {
+                chart1.Series["Kategoriler"].Points.AddXY(dr[0], dr[1]);
+            }
+            baglanti.Close();
+            //Grafiğe veri çekme2
+            baglanti.Open();
+            SqlCommand komut3 = new SqlCommand("select MUSTERISEHIR, COUNT(*) FROM TBLMUSTERI GROUP BY MUSTERISEHIR", baglanti);
+            SqlDataReader dr3 = komut3.ExecuteReader();
+            while (dr3.Read())
+            {
+                chart2.Series["Cities"].Points.AddXY(dr3[0], dr3[1]);
+            }
+            baglanti.Close();
         }
     }
 }
