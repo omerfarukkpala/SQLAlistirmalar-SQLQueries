@@ -58,7 +58,18 @@ For those who want to do it in English, here is the English version.
 ![image](https://github.com/omerfarukkpala/SQLAlistirmalar/assets/101570820/5c8debe4-1a64-4b59-9b3e-f977f780ad41)
 ### Customer Search 
 ![image](https://github.com/omerfarukkpala/SQLAlistirmalar/assets/101570820/000ff602-d588-4355-a4a4-c5a7080f742d)
-
+## Category Form
+![image](https://github.com/omerfarukkpala/SQLAlistirmalar/assets/101570820/efb75407-02e5-4341-bd76-6d075a15e589)
+## Category Form Listing
+![image](https://github.com/omerfarukkpala/SQLAlistirmalar/assets/101570820/43e6dba2-b09b-407f-aac1-e538ea22d37e)
+## Category Save
+![image](https://github.com/omerfarukkpala/SQLAlistirmalar/assets/101570820/6a6bab0e-cb68-4fcb-9d7b-9283b46bfebf)
+## Category Delete
+![image](https://github.com/omerfarukkpala/SQLAlistirmalar/assets/101570820/028e0618-f155-40eb-a317-8ac4f44b83ae)
+## Category Update 
+![image](https://github.com/omerfarukkpala/SQLAlistirmalar/assets/101570820/3c20b3cb-eb1f-4159-abed-e2907ab692ae)
+## Category Listing 
+![image](https://github.com/omerfarukkpala/SQLAlistirmalar/assets/101570820/e051d3c5-ae30-4470-94fe-3afb07d60410)
 
 
 
