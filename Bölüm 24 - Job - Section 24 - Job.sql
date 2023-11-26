@@ -1,3 +1,10 @@
 /*Bölüm 24 - Job -
  Section 24 - Job*/
- 
+
+ --CREATE TABLE JOBTABLOSU
+--(
+--ID INT IDENTITY(1,1),
+--METIN VARCHAR(20)
+--)
+
+SELECT * FROM JOBTABLOSU
