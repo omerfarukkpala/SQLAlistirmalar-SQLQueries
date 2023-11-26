@@ -53,11 +53,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmKategoriler.cs">
+    <Compile Include="FrmCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmKategoriler.Designer.cs">
-      <DependentUpon>FrmKategoriler.cs</DependentUpon>
+    <Compile Include="FrmCategory.Designer.cs">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMusteri.cs">
       <SubType>Form</SubType>
@@ -70,8 +70,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmKategoriler.resx">
-      <DependentUpon>FrmKategoriler.cs</DependentUpon>
+    <EmbeddedResource Include="FrmCategory.resx">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMusteri.resx">
       <DependentUpon>FrmMusteri.cs</DependentUpon>

@@ -378,6 +378,7 @@
             this.Button1.TabIndex = 22;
             this.Button1.Text = "PRODUCTS";
             this.Button1.UseVisualStyleBackColor = true;
+            this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // dataGridView1
             // 
@@ -391,24 +392,24 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView1.Location = new System.Drawing.Point(365, 517);
+            this.dataGridView1.Location = new System.Drawing.Point(397, 486);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(717, 274);
+            this.dataGridView1.Size = new System.Drawing.Size(808, 284);
             this.dataGridView1.TabIndex = 8;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(613, 486);
+            this.label4.Location = new System.Drawing.Point(645, 455);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(224, 20);
+            this.label4.Size = new System.Drawing.Size(212, 20);
             this.label4.TabIndex = 10;
-            this.label4.Text = "KRİTİK STOKTAKİ ÜRÜNLER";
+            this.label4.Text = "CRITICAL ITEMS IN STOCK";
             // 
             // chart1
             // 
@@ -416,7 +417,7 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(401, 88);
+            this.chart1.Location = new System.Drawing.Point(354, 88);
             this.chart1.Margin = new System.Windows.Forms.Padding(2);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
@@ -424,7 +425,7 @@
             series1.Legend = "Legend1";
             series1.Name = "Kategoriler";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(355, 249);
+            this.chart1.Size = new System.Drawing.Size(487, 331);
             this.chart1.TabIndex = 11;
             this.chart1.Text = "chart1";
             // 
@@ -434,7 +435,7 @@
             this.chart2.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.chart2.Legends.Add(legend2);
-            this.chart2.Location = new System.Drawing.Point(845, 69);
+            this.chart2.Location = new System.Drawing.Point(869, 91);
             this.chart2.Margin = new System.Windows.Forms.Padding(2);
             this.chart2.Name = "chart2";
             this.chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
@@ -442,7 +443,7 @@
             series2.Legend = "Legend1";
             series2.Name = "Cities";
             this.chart2.Series.Add(series2);
-            this.chart2.Size = new System.Drawing.Size(349, 249);
+            this.chart2.Size = new System.Drawing.Size(392, 328);
             this.chart2.TabIndex = 12;
             this.chart2.Text = "chart2";
             // 
@@ -450,12 +451,12 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(841, 323);
+            this.label5.Location = new System.Drawing.Point(865, 66);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(352, 20);
+            this.label5.Size = new System.Drawing.Size(340, 20);
             this.label5.TabIndex = 13;
-            this.label5.Text = "\"How many customers are there from each city?\"";
+            this.label5.Text = "How many customers are there from each city?";
             // 
             // label6
             // 
@@ -472,7 +473,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1229, 810);
+            this.ClientSize = new System.Drawing.Size(1272, 810);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.chart2);

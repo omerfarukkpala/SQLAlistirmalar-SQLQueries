@@ -62,7 +62,7 @@ namespace ProjectSQLDB
             komut.Parameters.AddWithValue("@p4", decimal.Parse(TxtBakiye.Text));
             komut.ExecuteNonQuery();
             baglanti.Close();
-            MessageBox.Show("MÜŞTERİ SİSTEME KAYDEDİLDİ");
+            MessageBox.Show("Customer Saved");
             Listele();
         }
 
@@ -73,7 +73,7 @@ namespace ProjectSQLDB
             komut.Parameters.AddWithValue("@p1", TxtId.Text);
             komut.ExecuteNonQuery();
             baglanti.Close();
-            MessageBox.Show("Müşteri Silindi");
+            MessageBox.Show("Customer Deleted");
             Listele();
         }
 
@@ -88,7 +88,7 @@ namespace ProjectSQLDB
             komut.Parameters.AddWithValue("@P5", TxtId.Text);
             komut.ExecuteNonQuery();
             baglanti.Close();
-            MessageBox.Show("Müşteri Güncellendi");
+            MessageBox.Show("Customer Updated");
             Listele();
         }
 

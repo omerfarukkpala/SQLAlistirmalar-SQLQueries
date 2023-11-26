@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace ProjectSQLDB
 {
-    public partial class FrmKategoriler : Form
+    public partial class FrmCategory : Form
     {
-        public FrmKategoriler()
+        public FrmCategory()
         {
             InitializeComponent();
         }
@@ -36,7 +36,7 @@ namespace ProjectSQLDB
             komut2.Parameters.AddWithValue("@p1", TxtKategoriAd.Text);
             komut2.ExecuteNonQuery();
             baglanti.Close();
-            MessageBox.Show("kategori Ekleme işlemi gerçekleşti");
+            MessageBox.Show("Category Saved");
         }
 
         private void BtnSil_Click(object sender, EventArgs e)
@@ -46,7 +46,7 @@ namespace ProjectSQLDB
             komut3.Parameters.AddWithValue("@p1", TxtKategoriId.Text);
             komut3.ExecuteNonQuery();
             baglanti.Close();
-            MessageBox.Show("kategori Silme işlemi gerçekleşti");
+            MessageBox.Show("Category Deleted");
         }
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
@@ -57,7 +57,7 @@ namespace ProjectSQLDB
             komut4.Parameters.AddWithValue("@p2", TxtKategoriId.Text);
             komut4.ExecuteNonQuery();
             baglanti.Close();
-            MessageBox.Show("kategori Güncelleme işlemi gerçekleşti");
+            MessageBox.Show("Category Updated");
         }
 
         private void DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)

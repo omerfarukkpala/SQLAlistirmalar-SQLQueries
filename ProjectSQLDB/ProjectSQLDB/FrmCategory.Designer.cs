@@ -1,6 +1,6 @@
 ﻿namespace ProjectSQLDB
 {
-    partial class FrmKategoriler
+    partial class FrmCategory
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmKategoriler));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCategory));
             this.PictureBox4 = new System.Windows.Forms.PictureBox();
             this.BtnGuncelle = new System.Windows.Forms.Button();
             this.PictureBox3 = new System.Windows.Forms.PictureBox();
@@ -71,7 +71,7 @@
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(176, 36);
             this.BtnGuncelle.TabIndex = 37;
-            this.BtnGuncelle.Text = "GÜNCELLE";
+            this.BtnGuncelle.Text = "UPDATE";
             this.BtnGuncelle.UseVisualStyleBackColor = true;
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
@@ -97,7 +97,7 @@
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(176, 36);
             this.BtnSil.TabIndex = 35;
-            this.BtnSil.Text = "SİL";
+            this.BtnSil.Text = "DELETE";
             this.BtnSil.UseVisualStyleBackColor = true;
             this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
@@ -123,7 +123,7 @@
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(176, 36);
             this.BtnKaydet.TabIndex = 33;
-            this.BtnKaydet.Text = "KAYDET";
+            this.BtnKaydet.Text = "SAVE";
             this.BtnKaydet.UseVisualStyleBackColor = true;
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
@@ -149,14 +149,14 @@
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(176, 36);
             this.BtnListele.TabIndex = 31;
-            this.BtnListele.Text = "LİSTELEME";
+            this.BtnListele.Text = "LISTING";
             this.BtnListele.UseVisualStyleBackColor = true;
             this.BtnListele.Click += new System.EventHandler(this.BtnListele_Click);
             // 
             // TxtKategoriAd
             // 
             this.TxtKategoriAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtKategoriAd.Location = new System.Drawing.Point(140, 87);
+            this.TxtKategoriAd.Location = new System.Drawing.Point(151, 87);
             this.TxtKategoriAd.Margin = new System.Windows.Forms.Padding(2);
             this.TxtKategoriAd.Multiline = true;
             this.TxtKategoriAd.Name = "TxtKategoriAd";
@@ -168,17 +168,17 @@
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Label2.ForeColor = System.Drawing.Color.White;
-            this.Label2.Location = new System.Drawing.Point(20, 99);
+            this.Label2.Location = new System.Drawing.Point(-1, 103);
             this.Label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(123, 20);
+            this.Label2.Size = new System.Drawing.Size(127, 20);
             this.Label2.TabIndex = 29;
-            this.Label2.Text = "KATEGORİ AD:";
+            this.Label2.Text = "Category Name :";
             // 
             // TxtKategoriId
             // 
             this.TxtKategoriId.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtKategoriId.Location = new System.Drawing.Point(140, 47);
+            this.TxtKategoriId.Location = new System.Drawing.Point(151, 47);
             this.TxtKategoriId.Margin = new System.Windows.Forms.Padding(2);
             this.TxtKategoriId.Multiline = true;
             this.TxtKategoriId.Name = "TxtKategoriId";
@@ -190,12 +190,12 @@
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Label1.ForeColor = System.Drawing.Color.White;
-            this.Label1.Location = new System.Drawing.Point(27, 59);
+            this.Label1.Location = new System.Drawing.Point(20, 62);
             this.Label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(117, 20);
+            this.Label1.Size = new System.Drawing.Size(106, 20);
             this.Label1.TabIndex = 27;
-            this.Label1.Text = "KATEGORİ ID:";
+            this.Label1.Text = "Category  ID :";
             // 
             // DataGridView1
             // 

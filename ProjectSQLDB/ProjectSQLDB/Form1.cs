@@ -26,7 +26,7 @@ namespace ProjectSQLDB
         private void BtnKategori_Click(object sender, EventArgs e)
         {
 
-            FrmKategoriler fr = new FrmKategoriler();
+            FrmCategory fr = new FrmCategory();
             fr.Show();
         }
 
@@ -65,6 +65,11 @@ namespace ProjectSQLDB
                 chart2.Series["Cities"].Points.AddXY(dr3[0], dr3[1]);
             }
             baglanti.Close();
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

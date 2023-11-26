@@ -82,7 +82,7 @@
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(234, 36);
             this.BtnGuncelle.TabIndex = 50;
-            this.BtnGuncelle.Text = "GÜNCELLE";
+            this.BtnGuncelle.Text = "UPDATE";
             this.BtnGuncelle.UseVisualStyleBackColor = true;
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
@@ -108,7 +108,7 @@
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(235, 36);
             this.BtnSil.TabIndex = 48;
-            this.BtnSil.Text = "SİL";
+            this.BtnSil.Text = "DELETE";
             this.BtnSil.UseVisualStyleBackColor = true;
             this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
@@ -134,7 +134,7 @@
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(234, 36);
             this.BtnKaydet.TabIndex = 46;
-            this.BtnKaydet.Text = "KAYDET";
+            this.BtnKaydet.Text = "SAVE";
             this.BtnKaydet.UseVisualStyleBackColor = true;
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
@@ -160,7 +160,7 @@
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(234, 36);
             this.BtnListele.TabIndex = 44;
-            this.BtnListele.Text = "LİSTELEME";
+            this.BtnListele.Text = "LISTING";
             this.BtnListele.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -211,7 +211,7 @@
             this.BtnAra.Name = "BtnAra";
             this.BtnAra.Size = new System.Drawing.Size(234, 39);
             this.BtnAra.TabIndex = 40;
-            this.BtnAra.Text = "ARA";
+            this.BtnAra.Text = "SEARCH";
             this.BtnAra.UseVisualStyleBackColor = true;
             this.BtnAra.Click += new System.EventHandler(this.BtnAra_Click);
             // 
@@ -236,7 +236,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(78, 199);
+            this.label5.Location = new System.Drawing.Point(70, 199);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(75, 20);
             this.label5.TabIndex = 37;
@@ -247,7 +247,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(91, 155);
+            this.label6.Location = new System.Drawing.Point(102, 157);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(43, 20);
             this.label6.TabIndex = 35;
@@ -267,7 +267,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(40, 116);
+            this.label4.Location = new System.Drawing.Point(47, 116);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(98, 20);
             this.label4.TabIndex = 31;
