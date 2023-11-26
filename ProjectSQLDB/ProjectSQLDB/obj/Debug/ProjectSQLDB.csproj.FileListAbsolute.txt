@@ -10,3 +10,15 @@ C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug
 C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.Form1.resources
 C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.FrmKategoriler.resources
 C:\Users\OFPALA\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.FrmMusteri.resources
+D:\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\bin\Debug\ProjectSQLDB.exe.config
+D:\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\bin\Debug\ProjectSQLDB.exe
+D:\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\bin\Debug\ProjectSQLDB.pdb
+D:\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.csproj.AssemblyReference.cache
+D:\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.Form1.resources
+D:\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.FrmKategoriler.resources
+D:\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.FrmMusteri.resources
+D:\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.Properties.Resources.resources
+D:\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.csproj.GenerateResource.cache
+D:\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.csproj.CoreCompileInputs.cache
+D:\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.exe
+D:\source\repos\SQLAlistirmalar\ProjectSQLDB\ProjectSQLDB\obj\Debug\ProjectSQLDB.pdb

@@ -39,7 +39,12 @@ namespace ProjectSQLDB
         SqlConnection baglanti = new SqlConnection(@"Data Source=OMERFARUKPALA;Initial Catalog=SatisVT;Integrated Security=True");
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            // ürünlerin durum seviyesi
+            SqlCommand komut = new SqlCommand("Execute TEST4", baglanti);
+            SqlDataAdapter da = new SqlDataAdapter(komut);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
         }
     }
 }
