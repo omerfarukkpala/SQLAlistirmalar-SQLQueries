@@ -46,9 +46,11 @@ For those who want to do it in English, here is the English version.
 
 ## Bölüm 19 - Trigger 2 - Section 19 - Trigger 2
 
-## Bölüm 20 - Transaction - Section 20 Transaction
+## Bölüm 20 - Transaction - Section 20 - Transaction
 
 ## Bölüm 21 - Fonksiyonlar - Section 21 - Functions
+
+## Bölüm 22 - Index - Section 22 - Index
 
 ## Main Form
 
