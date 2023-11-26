@@ -46,6 +46,8 @@ For those who want to do it in English, here is the English version.
 
 ## Bölüm 19 - Trigger 2 - Section 19 - Trigger 2
 
+## Bölüm 20 - Transaction - Section 20 Transaction
+
 ## Main Form
 
 ![mainform](https://github.com/omerfarukkpala/SQLAlistirmalar/assets/101570820/c38c2447-f11f-404a-b450-0bcd8fb30444)
