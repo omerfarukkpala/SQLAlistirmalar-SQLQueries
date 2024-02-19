@@ -1,8 +1,5 @@
 # SQL Alistirmalar - SQL Practices 
-Now, let's explore some basic SQL commands that can make working with databases a breeze.
 
-
-      
 ## Türkçe (Turkish) 
 
 Bu depo, SQL sorguları ve ilişkili konularla ilgili alıştırmalar içerir. Başlangıçta, dökümanları Türkçe olarak bulabilirsiniz. Daha sonra, aynı dökümanları İngilizce olarak bulabilirsiniz.
