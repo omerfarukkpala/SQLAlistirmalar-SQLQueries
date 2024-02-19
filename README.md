@@ -1,4 +1,7 @@
 # SQL Alistirmalar - SQL Practices 
+Now, let's explore some basic SQL commands that can make working with databases a breeze.
+
+
       
 ## Türkçe (Turkish) 
 
