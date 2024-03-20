@@ -1,7 +1,7 @@
 # SQL Alistirmalar - SQL Practices      
      
 ## Türkçe (Turkish)     
-  
+   
 Bu depo, SQL sorguları ve ilişkili konularla ilgili alıştırmalar içerir. Başlangıçta, dökümanları Türkçe olarak bulabilirsiniz. Daha sonra, aynı dökümanları İngilizce olarak bulabilirsiniz.
 
 ## English
