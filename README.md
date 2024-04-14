@@ -1,4 +1,4 @@
-# SQL Alistirmalar - SQL Practices                   
+# SQL Alistirmalar - SQL Practices                    
                
 ## Türkçe (Turkish)       
    
