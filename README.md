@@ -4,7 +4,7 @@
         
 Bu depo, SQL sorguları ve ilişkili konularla ilgili alıştırmalar içerir. Başlangıçta, dökümanları Türkçe olarak bulabilirsiniz. Daha sonra, aynı dökümanları İngilizce olarak bulabilirsiniz.
  
-## English    
+## English     
 
 This repository contains SQL queries and exercises related to SQL topics. Initially, you can find the documents in Turkish. Later on, the same documents will be available in English.
 
