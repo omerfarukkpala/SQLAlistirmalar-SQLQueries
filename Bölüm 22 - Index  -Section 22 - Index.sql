@@ -1,6 +1,6 @@
 /*Bölüm 22 - Index  - 
 Section 22 - Index */
-
+ 
 --Clustered Index(Kümelenmiş İndex)
 --İndexlerin belirli bir düzene ve sıraya sahip olduğu durumda clustered indexten bahsedilir. Tablodaki alana Primary key atandığı anda clustered 
 --index oluşturulmuş olur. Örneğin dışarıdan sisteme yeni bir kayıt girildiğinde en son bilgiler ona göre index değeri alır. Veriler farklı farklı 
